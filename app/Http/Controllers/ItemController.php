@@ -24,7 +24,7 @@ class ItemController extends Controller
     public function index()
     {
         // 商品一覧取得
-        $items = Item::all();
+        $items = Item::paginate(6);
 
         return view('item.index', compact('items'));
     }

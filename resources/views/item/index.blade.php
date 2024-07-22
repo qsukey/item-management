@@ -38,6 +38,10 @@
                 </div>
             @endforeach
         </div>
+        <!-- ページネーションリンクの表示 -->
+        <div class="d-flex justify-content-center mt-4">
+            {{ $items->links('pagination::bootstrap-4') }}
+        </div>
     </div>
 </div>
 @stop
