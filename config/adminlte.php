@@ -305,6 +305,11 @@ return [
             'url'  => 'items/search',
             'icon' => 'fas fa-search',
         ],
+        [
+            'text' => 'ユーザー管理',
+            'url'  => 'users',
+            'icon' => 'fas fa-users',
+        ],
 
         // AdminLTEデフォルト
         /*
