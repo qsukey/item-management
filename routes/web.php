@@ -29,4 +29,7 @@ Route::prefix('items')->group(function () {
     Route::get('/edit/{id}', [App\Http\Controllers\ItemController::class, 'edit'])->name('edit');
     Route::put('/edit/{id}', [App\Http\Controllers\ItemController::class, 'update'])->name('update');
     Route::delete('/delete/{id}', [App\Http\Controllers\ItemController::class, 'destroy'])->name('delete');
+    Route::get('search', [App\Http\Controllers\ItemController::class, 'search'])->name('search');
 });
+
+Route::get('users', [App\Http\Controllers\UserController::class, 'index'])->name('user.list');

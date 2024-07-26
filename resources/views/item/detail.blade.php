@@ -9,11 +9,6 @@
 @section('content')
     <div class="container">
         <div class="row">
-            <div class="col-md-1">
-                <a href="{{ route('list') }}" class="btn btn-outline-dark btn-lg position-absolute" style="left: -50px;">
-                    <i class="fas fa-arrow-circle-left"></i>
-                </a>
-            </div>
             <div class="col-md-11">
                 <div class="card">
                     <div class="card-header bg-primary text-white text-center text-bold">写真ID #{{ $item->id }} の詳細</div>

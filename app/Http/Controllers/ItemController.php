@@ -132,4 +132,12 @@ class ItemController extends Controller
 
         return redirect('items/')->with('success', "写真ID{$id} {$item->name}のデータが削除されました");
     }
+
+    /**
+     * ユーザー一覧
+     */
+    public function search()
+    {
+        return view('item.search');
+    }
 }

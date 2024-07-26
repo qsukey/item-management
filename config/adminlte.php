@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => '商品管理',
+    'title' => '写真管理',
     'title_prefix' => '',
     'title_postfix' => '',
 
